@@ -5,7 +5,7 @@ Esse diretorio tem como função compartilhar e salvar meus trabalhos e exercici
 ## README
 
 ```
-Até mesmo esse READM já é meu objeto de estudo ⚙️❤️
+Até mesmo esse README já é meu objeto de estudo ⚙️❤️
 ```
 
 
