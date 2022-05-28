@@ -1,44 +1,64 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<title> Primeiro DOC HTML</title>
-		<link rel="stylesheet" type="text/css" href="stilo.css">
-		<script src="myscripts.js"></script>
-	
-	</head
+<head>
+	<title> Primeiro DOC HTML</title>
+	<link rel="stylesheet" type="text/css" href="stilo.css">
+	<script src="myscripts.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
 
 	<body>
-		<h1> Esse é meu primeiro DOC. em HTML!</h1>
-		<img class="alinhado" src="rost.jpg" alt="My face">
-		
-		
-		
-		
-		<p style="text-align:center;"> Realmente interessante como os coalas cuidam de seus filhos 
-		                        <br /> Atualizando conforme vou aprendendo :/ 💕
-		</p>
-		
-		
-		<h2> Atualizações</h2>
-        <ul class="alinhado" style="width:15%">
-		<li>Adicionado Foto 📷</li>
-		<li>Adicionado CSS 🎬</li>
-		<li>Adicionado Javascrpt 🤯</li>
-		<li>Adicionado Clock 🕒</li>
-		</ul>
-		
-		
-		<label class="alinhado"  style="width:28%">
-			<span>Soma</span>
- 			<input type="number"  id="x1"/>
-			<input type="number"  id="x2"/>
-			<span id="resultado">[resultado]</span>
-			<button type="button" onclick="soma();">Calc</button>
-		</label>
+		<div class="topo">
+			<div class="topo-esquerda">
+				<img class="foto-perfil" src="rost.jpg" alt="Rosto"/>
+			</div>
 
-		<div class="alinhado" style="width:15%" id="txt"><script>time()</script></div>
-		
+			<div class="topo-meio">
+				<h1>EUGÊNIO CARTAGENA RODRIGUES</h1>
+				<p>
+					Estudande de Análise e Desenvolvimento de Sistemas
+					<br />
+					Em estudo sobre desenvolvimento WEB.
+				</p>
+			</div>
+			<div class="topo-direita">
+				<h3>Relógio</h3>
+				<div style="background-color" id="txt"><script>time()</script></div>
+				
+			</div>
+		</div>
+
+		<div class="conteudo">
+			<div class="conteudo-esquerda">
+				<p>Futuro menu</p>
+			</div>
+
+			<div class="conteudo-direita">
+
+				<ul class="lista">
+					<h3 class="titulo-menssagem">20/04/2020</h3>
+					<li class="lista-item"><p>📷 Adicionado uma imagem do perfil na div topo-esquerda.</p></li>
+					<hr />
+					<h3 class="titulo-menssagem">25/04/2020</h3>
+					<li class="lista-item"> <p>🎬 Adicionado CSS a pagina html.  </p></li>
+					<hr />
+					<h3 class="titulo-menssagem">27/04/2020</h3>
+					<li class="lista-item"> <p>🤯 Adicionado Javascript na pagina. </p> </li>
+					<hr />
+					<h3 class="titulo-menssagem">29/04/2020</h3>
+					<li class="lista-item">🕒 Adicionado um relógio com javascript </li>
+					<hr />
+					<h3 class="titulo-menssagem">28/05/2022</h3>
+					<li class="lista-item">⛏️ Remodelado toda a pagina com paleta de cores e divs. </li>
+
+
+				</ul>
+
+			</div>
+		</div>
+
 	</body>
 
 </html>

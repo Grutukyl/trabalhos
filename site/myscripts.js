@@ -1,7 +1,7 @@
 
 
 
-window.alert('Bem vindo!');
+
 
 function soma() {
 
